@@ -74,7 +74,7 @@ const [isSignUpOpen, setIsSignUpOpen] = useState(false);
               href="https://forms.gle/aGHFPhNtTaxkhagm9"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden lg:block bg-[#25D366] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-600 transition"
+              className="block bg-[#25D366] text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-600 transition"
              >
              Register Now
             </a>
