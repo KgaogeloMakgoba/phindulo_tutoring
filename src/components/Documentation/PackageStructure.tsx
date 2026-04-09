@@ -1,9 +1,4 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Image from "next/image";
-import tline from "/public/images/svgs/T-Line.svg";
-import t_half_line from "/public/images/svgs/T-half_line.svg";
-import straight_line from "/public/images/svgs/straight_group.svg";
-import small_straight_line from "/public/images/svgs/smal_straight_line.svg";
 
 export const PackageStructure = () => {
   const Counts = [
@@ -18,7 +13,7 @@ export const PackageStructure = () => {
       <div className="rounded-md p-6 pt-3 border border-dark_border border-opacity-60 mt-6">
         <div className="flex items-center gap-4">
           <h5 className="text-base font-medium text-muted mt-3 mb-1">
-            ELearning Tailwind NextJs Template
+            Phindule Tutoring Tailwind NextJs Template
           </h5>
         </div>
         <ul className="ps-0 md:ps-5 list-unstyled">
