@@ -6,9 +6,9 @@ const Hero = () => {
 
     return (
         <section id="home-section" className='bg-slateGray'>
-            <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 pt-20">
-                <div className='grid grid-cols-1 lg:grid-cols-12 items-center'>
-                    <div className='col-span-6 flex flex-col gap-8 '>
+            <div className="w-full max-w-screen-xl mx-auto px-4 pt-20">
+                <div className='grid grid-cols-1 lg:grid-cols-12 items-center w-full overflow-hidden'>
+                    <div className='col-span-12 lg:col-span-6 flex flex-col gap-8'>
                         <div className='flex gap-2 mx-auto lg:mx-0'>
                         </div>
                         <div className='pt-5 lg:pt-0'>
@@ -38,8 +38,14 @@ const Hero = () => {
                         </div>
 
                     </div>
-                    <div className='col-span-6 flex justify-center'>
-                        <Image src={`${getImagePrefix()}images/banner/Image2.jpeg`} alt="nothing" width={1000} height={805} />
+                    <div className='col-span-12 lg:col-span-6 flex justify-center'>
+                        <Image
+                          src={`${getImagePrefix()}images/banner/Image2.jpeg`}
+                          alt="nothing"
+                          width={1000}
+                          height={805}
+                          className="w-full max-w-full h-auto object-contain"
+                        />
                     </div>
                 </div>
 

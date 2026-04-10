@@ -22,3 +22,7 @@ section {
 .slick-dots li button:before {
   font-size: 11px !important;
 }
+
+html, body {
+  overflow-x: hidden;
+}
