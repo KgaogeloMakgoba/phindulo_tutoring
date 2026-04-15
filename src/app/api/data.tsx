@@ -17,7 +17,7 @@ export const courseData: {
     {
       heading: 'Languages',
       imgSrc: '/images/faculties/languagesone.jpg',
-      name: 'English',
+      name: 'English and Afrikaans',
     },
     {
       heading: 'General',

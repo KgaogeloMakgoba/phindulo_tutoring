@@ -23,6 +23,7 @@ const config: Config = {
         deepSlate: "#d5effa",
         success: "#43c639",
         midnight_text: "#222c44",
+        muted: "#6b7280",
       },
       spacing: {
         '75%': '75%',
